@@ -1,0 +1,288 @@
+{
+    "settings": {
+        "glyphicons" : true
+    },
+    "firstname": "Francisco",
+    "familyname": "Lopes",
+    "github_id": "oblitum",
+    "bio_data": {
+        "email": "francisco @ oblita.com",
+        "phone": "+50 (11) 98071-9565",
+        "website": "nosubstance.me",
+        "stars": ["C++","Go","Rust","Haskell"],
+        "summary": {
+            "points":[
+                "Strives for providing quality software.",
+                "Enjoys self-paced study (both computing and other sciencies).",
+                "Likes to work with keen professionals."
+            ]
+        },
+        "github_projects": {
+            "details": [
+                {
+                    "project_name": "oblitum/Interception",
+                    "tagline": "Live at [oblita.com/interception](http://oblita.com/interception)",
+                    "description": [
+                        "Wrote a Windows library that uses a filter driver to intercept input devices.",
+                        "A very particular piece of software which was ported to other languages by the community and with some commercial licenses acquired.",
+                        "This is an old project. Currently, my interest in Windows programming is low."
+                    ]
+                },
+                {
+                    "project_name": "oblitum/rustbyexample.org",
+                    "tagline": "Live at [rustbyexample.org](http://rustbyexample.org)",
+                    "description": [
+                        "First series of tutorials for the Rust programming language inspired in the gobyexample.org approach.",
+                        "Still unfinished and work in progress."
+                    ]
+                },
+                {
+                    "project_name": "oblitum/YouCompleteMe",
+                    "description": [
+                        "Wrote a YouCompleteMe fork in the weekend that supports argument completion.",
+                        "YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor."
+                    ]
+                }
+            ]
+        },
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "C",
+                        "C++",
+                        "Go",
+                        "Rust",
+                        "Haskell",
+                        "Assembly",
+                        "Javascript"
+                    ]
+                },
+                {
+                    "type": "Libraries",
+                    "items": [
+                        "STL",
+                        "Boost",
+                        "POSIX",
+                        "Windows API",
+                        "Qt",
+                        "OpenGL"
+                    ]
+                },
+                {
+                    "type": "Platforms",
+                    "items": [
+                        "Linux",
+                        "OS X",
+                        "Windows",
+                        "Embedded"
+                    ]
+                },
+                {
+                    "type": "Theory",
+                    "items": [
+                        "Algorithms",
+                        "Data Structures",
+                        "Complexity Analysis"
+                    ]
+                },
+                {
+                    "type": "Tools",
+                    "items": [
+                        "CLI",
+                        "Vim",
+                        "gdb",
+                        "gcc",
+                        "clang",
+                        "msvc",
+                        "CMake",
+                        "Valgrind/Helgrind",
+                        "scan-build",
+                        "VCS/DVCS (Git, Bazaar, SVN, ...)",
+                        "Jenkins",
+                        "Visual Studio",
+                        "Eclipse",
+                        "Qt Creator",
+                        "WinDBG (Kernel Mode)"
+                    ]
+                },
+                {
+                    "type": "Idioms",
+                    "items": [
+                        "English (intermediary~advanced)",
+                        "Portuguese (native)"
+                    ]
+                }
+            ]
+        },
+        "education": {
+        "show_gpa": true,
+            "schools": [
+                {
+                    "degree": "Technician",
+                    "major": "Mechatronics",
+                    "institution": "SENAI Armando Arruda Pereira",
+                    "graduation_year": 2006
+                },
+                {
+                    "degree": "Technician",
+                    "major": "Data Processing",
+                    "institution": "ETE Lauro Gomes",
+                    "graduation_year": 2004
+                }
+            ]
+        },
+        "experience": {
+            "items": [
+                {
+                    "title": "Senior Programmer",
+                    "organisation": "Sertec Sistemas e Assessoria LTDA",
+                    "location": "",
+                    "from": "4/2013",
+                    "to": "8/2013",
+                    "details": [
+                        "C/C++ development of protocol parsing for GPS tracking devices. TCP/UDP communication and performance analysis.",
+                        "Initiative in making use of static analysis tools (cppcheck and clang scan-build) for bug hunting and Helgrind for concurrency problem analysis.",
+                        "Proposal and initial adoption of a documentation system (Doxygen).",
+                        "Proposal for adoption of unit tests (googletest), migration from IDE centric projects to CMake (with benefits for build automation), a DVCS (Git), a CI Server (Jenkins) and Redmine for management and bug-tracking.",
+                        "Identified throughput problems with server of communication with GPS devices."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "C",
+                            "C++",
+                            "Vim",
+                            "Git",
+                            "SVN",
+                            "git-svn",
+                            "TCP",
+                            "UDP",
+                            "POSIX",
+                            "Valgrind/Helgrind",
+                            "Doxygen",
+                            "clang",
+                            "gcc",
+                            "Linux",
+                            "PostgreSQL",
+                            "NetBeans IDE"
+                        ]
+                    }
+                },
+                {
+                    "title": "Research and Development Engineer",
+                    "organisation": "TOTVS",
+                    "location": "",
+                    "from": "5/2011",
+                    "to": "6/2012",
+                    "details": [
+                        "C++ development of virtual machines for business languages. GUI development with Qt 4.",
+                        "Short involvement with small projects, developing for COM and POS devices."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "C++",
+                            "Qt 4",
+                            "CMake",
+                            "Compilers",
+                            "Virtual Machines",
+                            "Unit Tests",
+                            "Jira",
+                            "Kanban",
+                            "Scrum",
+                            "POS",
+                            "Windows"
+                        ]
+                    }
+                },
+                {
+                    "title": "C Junior Programmer Analyst",
+                    "organisation": "SCUA Segurança da Informação",
+                    "location": "",
+                    "from": "1/2010",
+                    "to": "4/2011",
+                    "details": [
+                        "System programming (programs, services, drivers) for fields of data security and hardware/software detection, Windows and Linux."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "C++",
+                            "C",
+                            "WDM",
+                            "Windows API",
+                            "Bazaar",
+                            "MBR",
+                            "Linux",
+                            "Cryptography",
+                            "Bootloader",
+                            "Windows",
+                            "Linux"
+                        ]
+                    }
+                },
+                {
+                    "title": "Junior Programmer",
+                    "organisation": "HI-T Software LTDA",
+                    "location": "",
+                    "from": "11/2008",
+                    "to": "12/2010",
+                    "details": [
+                        "Game development for Director/lingo and Flash/ActionScript 3.",
+                        "Development of minor projects using Assembly (application involving Microchip PIC, RS232 protocol and criptography), C# (Microsoft .NET Framework; communication with embedded system), C++ (Macromedia Open Architecture, COM based tecnology for shockwave plugin development)."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Shockwave",
+                            "Lingo",
+                            "Flash",
+                            "ActionScript 3",
+                            "C#",
+                            "PIC",
+                            "Assembly",
+                            "C++"
+                        ]
+                    }
+                },
+                {
+                    "title": "Freelancer",
+                    "organisation": "Freelancer",
+                    "location": "",
+                    "from": "1/2004",
+                    "to": "7/2005",
+                    "details": [
+                        "Helping my C++ teacher with exam corrections, production of java didactic material and _Mathematica_ programming for Masters Degree in Eletrical Engineer."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Mathematica",
+                            "Java",
+                            "C++",
+                            "C"
+                        ]
+                    }
+                }
+            ]
+        },
+        "other_projects": {
+            "items": [
+                {
+                    "headline": "patches, bugs, projects, opinions, etc (picked at random)",
+                    "points": [
+                        "[circular header inclusion dependency in boost.math](https://svn.boost.org/trac/boost/ticket/7999)",
+                        "[C &amp; C++ Brazil comunity's web site revamp     ](http://ccppbrasil.github.io/about/)",
+                        "[libclang python interface optimization            ](http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)",
+                        "[windows kernel mode device hook                   ](http://oblita.com/interception.html)",
+                        "[reduced libclang bug with patch                   ](http://llvm.org/bugs/show_bug.cgi?id=13699)",
+                        "[c++11 raw string literals on vim                  ](https://github.com/vim-jp/cpp-vim/pull/14)",
+                        "[c++11 standard editorial fix                      ](https://github.com/cplusplus/draft/pull/37)",
+                        "[featured on isocpp.org                            ](http://isocpp.org/blog/2014/01/special-chars)",
+                        "[reduced libclang bug                              ](http://llvm.org/bugs/show_bug.cgi?id=13616)",
+                        "[reduced clang bug                                 ](http://llvm.org/bugs/show_bug.cgi?id=14486)",
+                        "[qt opengl patch                                   ](https://bugreports.qt-project.org/browse/QTBUG-13503)",
+                        "[some praise                                       ](https://github.com/Valloric/YouCompleteMe/issues/669#issuecomment-31697627)"
+                    ]
+                }
+            ]
+        }
+    }
+}
