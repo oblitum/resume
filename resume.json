@@ -8,7 +8,7 @@
     "bio_data": {
         "email": "francisco @ oblita.com",
         "phone": "+50 (11) 98071-9565",
-        "website": "nosubstance.me",
+        "website": "http://nosubstance.me",
         "stars": ["C++","Go","Rust","Haskell"],
         "summary": {
             "points":[
