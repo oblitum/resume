@@ -1,32 +1,33 @@
-		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css" />
-		<script>document.getElementById('github-png').innerHTML = '<img src="public/images/github.png" style="width:22px"></img> ';
-		</script>
+<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="public/css/screen.css" />
+<link rel="stylesheet" type="text/css" href="public/css/mobile.css" />
 <div id="page">
-	<div class="contact-details">
-		<span class="glyphicon glyphicon-envelope"></span> francisco @ oblita.com<br/>
-		<span class="glyphicon glyphicon-earphone"></span> +50 (11) 98071-9565<br/>
-		<span class="glyphicon glyphicon-globe"></span>
-		<a href="http://nosubstance.me"> http://nosubstance.me</a>
+	<div id="top-contact">
+		<div class="contact-details">
+			<div class="icon-envelope icon-square"></div> francisco @ oblita.com<br />
+			<div class="icon-phone icon-square"></div> +55 (11) 98071-9565<br />
+			<div class="icon-globe icon-square"></div><a href="http://nosubstance.me"> http://nosubstance.me</a>
+		</div>
 	</div>
 	
-	<h1 class="emphnext">Francisco Lopes</h1><br/>
-	<span class="stars">
-		 C++ <span class="glyphicon glyphicon-star-empty"></span>
-		 Go <span class="glyphicon glyphicon-star-empty"></span>
-		 Rust <span class="glyphicon glyphicon-star-empty"></span>
-		 Haskell 
+	<h1 class="emphnext">Francisco Lopes</h1>
+	<span class="stars" style="clear:left">
+		 C++ <div class="icon-star-o icon-star"></div>
+		 Go <div class="icon-star-o icon-star"></div>
+		 Rust <div class="icon-star-o icon-star"></div>
+		 Haskell <div class="icon-star-o icon-star"></div>
+		 Python 
 	</span>
-	<br/>
+	<br/><br/>
 
-	<h2><span class="glyphicon glyphicon-compressed"></span> Qualification Summary</h2>
+	<h2><div class="icon-user icon-square"></div> Qualifications summary</h2>
 	<ul>
 		<li>Strives for providing quality software.</li>
-		<li>Enjoys self-paced study (both computing and other sciencies).</li>
+		<li>Enjoys self-paced study (both computing and other sciences).</li>
 		<li>Likes to work with keen professionals.</li>
 	</ul>
 
-	<h2><span id="github-png"></span>GitHub Projects</h2>
+	<h2><div class="icon-github icon-square"></div> GitHub Projects</h2>
 	<ul>
 		<li><a href="https://github.com/oblitum/Interception">oblitum/Interception</a>
 		 &raquo; Live at <a href="http://oblita.com/interception">oblita.com/interception</a>
@@ -36,29 +37,24 @@
 				<li>This is an old project. Currently, my interest in Windows programming is low.</li>
 			</ul>
 		</li>
-		<li><a href="https://github.com/oblitum/rustbyexample.org">oblitum/rustbyexample.org</a>
-		 &raquo; Live at <a href="http://rustbyexample.org">rustbyexample.org</a>
-			<ul>
-				<li>First series of tutorials for the Rust programming language inspired in the gobyexample.org approach.</li>
-				<li>Still unfinished and work in progress.</li>
-			</ul>
-		</li>
 		<li><a href="https://github.com/oblitum/YouCompleteMe">oblitum/YouCompleteMe</a>
 		
 			<ul>
-				<li>Wrote a YouCompleteMe fork in the weekend that supports argument completion.</li>
+				<li>I'm currently maintaining two YouCompleteMe forks that supports parameter completion.</li>
+				<li>The <a href="https://github.com/Valloric/YouCompleteMe/pull/1300">last one</a> requires improvements to the clang codebase which I've already proposed.</li>
 				<li>YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor.</li>
 			</ul>
 		</li>
 	</ul>
 
-	<h2><span class="glyphicon glyphicon-th-list"></span> Technical skills</h2>
+	<h2><div class="icon-th-list icon-square"></div> Technical Skills</h2>
 	<ul class="languages">
 		<li>Programming Languages: 
 			<span class="label label-default">C</span>
 			<span class="label label-default">C++</span>
 			<span class="label label-default">Go</span>
 			<span class="label label-default">Rust</span>
+			<span class="label label-default">Python</span>
 			<span class="label label-default">Haskell</span>
 			<span class="label label-default">Assembly</span>
 			<span class="label label-default">Javascript</span>
@@ -105,23 +101,49 @@
 		</li>
 	</ul>
 
-	<h2><span class="glyphicon glyphicon-book"></span> Education</h2>
-	<table class="table education">
-		<tr>
-			<th>Degree</th><th>Major</th><th>Institution</th><th nowrap>Graduation Year</th>
-		</tr>
-		<tr>
-			<td>Technician</td><td>Mechatronics</td><td>SENAI Armando Arruda Pereira</td><td align="center">2006</td>
-		</tr>
-		<tr>
-			<td>Technician</td><td>Data Processing</td><td>ETE Lauro Gomes</td><td align="center">2004</td>
-		</tr>
-	</table>
+	<h2><div class="icon-mortar-board icon-rect"></div> Education</h2>
+	<div id="mobile-table">
+		<div class="table-responsive">
+			<table class="table education">
+				<tr>
+					<th>Degree</th><th>Major</th><th>Institution</th><th nowrap>Graduation Year</th>
+				</tr>
+				<tr>
+					<td>Technician</td><td>Mechatronics</td><td>SENAI Armando Arruda Pereira</td><td align="center">2006</td>
+				</tr>
+				<tr>
+					<td>Technician</td><td>Data Processing</td><td>ETE Lauro Gomes</td><td align="center">2004</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="desktop-table">
+		<table class="table education">
+			<tr>
+				<th>Degree</th><th>Major</th><th>Institution</th><th nowrap>Graduation Year</th>
+			</tr>
+			<tr>
+				<td>Technician</td><td>Mechatronics</td><td>SENAI Armando Arruda Pereira</td><td align="center">2006</td>
+			</tr>
+			<tr>
+				<td>Technician</td><td>Data Processing</td><td>ETE Lauro Gomes</td><td align="center">2004</td>
+			</tr>
+		</table>
+	</div>
 
 
-	<h2><span class="glyphicon glyphicon-briefcase"></span> Professional Experience</h2>
+	<h2><div class="icon-briefcase icon-square"></div> Professional Experience</h2>
 	<ul>
-		<li>Senior Programmer at Sertec Sistemas e Assessoria LTDA
+		<li>Freelancer, 
+			<span class="right">(1/2014 – present)</span>
+			<ul>
+				<li>I've been commercially licensing my own software, while also contributing to open-source.</li>
+				<li>Technologies got to work on: 
+					<span class="label label-default">many, whatever fits better</span>
+				</li>
+			</ul>
+		</li>
+		<li>Senior Programmer, Sertec Sistemas e Assessoria LTDA
 			<span class="right">(4/2013 – 8/2013)</span>
 			<ul>
 				<li>C/C++ development of protocol parsing for GPS tracking devices. TCP/UDP communication and performance analysis.</li>
@@ -149,7 +171,7 @@
 				</li>
 			</ul>
 		</li>
-		<li>Research and Development Engineer at TOTVS
+		<li>Research and Development Engineer, TOTVS
 			<span class="right">(5/2011 – 6/2012)</span>
 			<ul>
 				<li>C++ development of virtual machines for business languages. GUI development with Qt 4.</li>
@@ -169,7 +191,7 @@
 				</li>
 			</ul>
 		</li>
-		<li>C Junior Programmer Analyst at SCUA Segurança da Informação
+		<li>C Junior Programmer Analyst, SCUA Segurança da Informação
 			<span class="right">(1/2010 – 4/2011)</span>
 			<ul>
 				<li>System programming (programs, services, drivers) for fields of data security and hardware/software detection, Windows and Linux.</li>
@@ -188,7 +210,7 @@
 				</li>
 			</ul>
 		</li>
-		<li>Junior Programmer at HI-T Software LTDA
+		<li>Junior Programmer, HI-T Software LTDA
 			<span class="right">(11/2008 – 12/2010)</span>
 			<ul>
 				<li>Game development for Director/lingo and Flash/ActionScript 3.</li>
@@ -205,7 +227,7 @@
 				</li>
 			</ul>
 		</li>
-		<li>Freelancer at Freelancer
+		<li>Freelancer, Freelancer
 			<span class="right">(1/2004 – 7/2005)</span>
 			<ul>
 				<li>Helping my C++ teacher with exam corrections, production of java didactic material and <i>Mathematica</i> programming for Masters Degree in Eletrical Engineer.</li>
@@ -219,23 +241,24 @@
 		</li>
 	</ul>
 
-	<h2><span class="glyphicon glyphicon-cog"></span> Other Personal Projects</h2>
+	<h2><div class="icon-gear icon-square"></div> Other Personal Projects</h2>
 	<ul>
 		<li>
 			patches, bugs, projects, opinions, etc (picked at random)
 			<ul>
-				<li><a href="https://svn.boost.org/trac/boost/ticket/7999">circular header inclusion dependency in boost.math</a></li>
-				<li><a href="http://ccppbrasil.github.io/about/">C &amp; C++ Brazil comunity's web site revamp     </a></li>
-				<li><a href="http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html">libclang python interface optimization            </a></li>
-				<li><a href="http://oblita.com/interception.html">windows kernel mode device hook                   </a></li>
-				<li><a href="http://llvm.org/bugs/show_bug.cgi?id=13699">reduced libclang bug with patch                   </a></li>
-				<li><a href="https://github.com/vim-jp/cpp-vim/pull/14">c++11 raw string literals on vim                  </a></li>
-				<li><a href="https://github.com/cplusplus/draft/pull/37">c++11 standard editorial fix                      </a></li>
-				<li><a href="http://isocpp.org/blog/2014/01/special-chars">featured on isocpp.org                            </a></li>
-				<li><a href="http://llvm.org/bugs/show_bug.cgi?id=13616">reduced libclang bug                              </a></li>
-				<li><a href="http://llvm.org/bugs/show_bug.cgi?id=14486">reduced clang bug                                 </a></li>
-				<li><a href="https://bugreports.qt-project.org/browse/QTBUG-13503">qt opengl patch                                   </a></li>
-				<li><a href="https://github.com/Valloric/YouCompleteMe/issues/669#issuecomment-31697627">some praise                                       </a></li>
+				<li><a href="http://lists.cs.uiuc.edu/pipermail/cfe-dev/2015-January/040736.html">implementation for completion in call context for C++</a></li>
+				<li><a href="https://svn.boost.org/trac/boost/ticket/7999">circular header inclusion dependency in boost.math   </a></li>
+				<li><a href="http://ccppbrasil.github.io/about/">C &amp; C++ Brazil comunity's web site revamp        </a></li>
+				<li><a href="http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html">libclang python interface optimization               </a></li>
+				<li><a href="http://oblita.com/interception.html">windows kernel mode device hook                      </a></li>
+				<li><a href="http://llvm.org/bugs/show_bug.cgi?id=13699">reduced libclang bug with patch                      </a></li>
+				<li><a href="https://github.com/vim-jp/cpp-vim/pull/14">c++11 raw string literals on vim                     </a></li>
+				<li><a href="https://github.com/cplusplus/draft/pull/37">c++11 standard editorial fix                         </a></li>
+				<li><a href="http://isocpp.org/blog/2014/01/special-chars">featured on isocpp.org                               </a></li>
+				<li><a href="http://llvm.org/bugs/show_bug.cgi?id=13616">reduced libclang bug                                 </a></li>
+				<li><a href="http://llvm.org/bugs/show_bug.cgi?id=14486">reduced clang bug                                    </a></li>
+				<li><a href="https://bugreports.qt-project.org/browse/QTBUG-13503">qt opengl patch                                      </a></li>
+				<li><a href="https://github.com/Valloric/YouCompleteMe/issues/669#issuecomment-31697627">some praise                                          </a></li>
 			
 			</ul>
 		</li>
@@ -247,5 +270,14 @@
 
 
 	
+
+	<br />
+	<div id="bottom-contact" text-size="80%">
+		<div class="icon-envelope icon-square"></div> francisco @ oblita.com<br />
+		<div class="icon-phone icon-square"></div> +55 (11) 98071-9565<br />
+		<div class="icon-globe icon-square"></div><a href="http://nosubstance.me"> http://nosubstance.me</a>
+	</div>
+</div>
+
 
 </div><!-- End Page -->
