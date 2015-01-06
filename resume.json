@@ -7,13 +7,13 @@
     "github_id": "oblitum",
     "bio_data": {
         "email": "francisco @ oblita.com",
-        "phone": "+50 (11) 98071-9565",
+        "phone": "+55 (11) 98071-9565",
         "website": "http://nosubstance.me",
-        "stars": ["C++","Go","Rust","Haskell"],
+        "stars": ["C++","Go","Rust","Haskell","Python"],
         "summary": {
             "points":[
                 "Strives for providing quality software.",
-                "Enjoys self-paced study (both computing and other sciencies).",
+                "Enjoys self-paced study (both computing and other sciences).",
                 "Likes to work with keen professionals."
             ]
         },
@@ -29,17 +29,10 @@
                     ]
                 },
                 {
-                    "project_name": "oblitum/rustbyexample.org",
-                    "tagline": "Live at [rustbyexample.org](http://rustbyexample.org)",
-                    "description": [
-                        "First series of tutorials for the Rust programming language inspired in the gobyexample.org approach.",
-                        "Still unfinished and work in progress."
-                    ]
-                },
-                {
                     "project_name": "oblitum/YouCompleteMe",
                     "description": [
-                        "Wrote a YouCompleteMe fork in the weekend that supports argument completion.",
+                        "I'm currently maintaining two YouCompleteMe forks that supports parameter completion.",
+                        "The [last one](https://github.com/Valloric/YouCompleteMe/pull/1300) requires improvements to the clang codebase which I've already proposed.",
                         "YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor."
                     ]
                 }
@@ -54,6 +47,7 @@
                         "C++",
                         "Go",
                         "Rust",
+                        "Python",
                         "Haskell",
                         "Assembly",
                         "Javascript"
@@ -135,6 +129,19 @@
         },
         "experience": {
             "items": [
+                {
+                    "title": "Freelancer",
+                    "organisation": "",
+                    "location": "",
+                    "from": "1/2014",
+                    "to": "present",
+                    "details": [
+                        "I've been commercially licensing my own software, while also contributing to open-source."
+                    ],
+                    "technology_used": {
+                        "tools": [ "many, whatever fits better" ]
+                    }
+                },
                 {
                     "title": "Senior Programmer",
                     "organisation": "Sertec Sistemas e Assessoria LTDA",
@@ -268,18 +275,19 @@
                 {
                     "headline": "patches, bugs, projects, opinions, etc (picked at random)",
                     "points": [
-                        "[circular header inclusion dependency in boost.math](https://svn.boost.org/trac/boost/ticket/7999)",
-                        "[C &amp; C++ Brazil comunity's web site revamp     ](http://ccppbrasil.github.io/about/)",
-                        "[libclang python interface optimization            ](http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)",
-                        "[windows kernel mode device hook                   ](http://oblita.com/interception.html)",
-                        "[reduced libclang bug with patch                   ](http://llvm.org/bugs/show_bug.cgi?id=13699)",
-                        "[c++11 raw string literals on vim                  ](https://github.com/vim-jp/cpp-vim/pull/14)",
-                        "[c++11 standard editorial fix                      ](https://github.com/cplusplus/draft/pull/37)",
-                        "[featured on isocpp.org                            ](http://isocpp.org/blog/2014/01/special-chars)",
-                        "[reduced libclang bug                              ](http://llvm.org/bugs/show_bug.cgi?id=13616)",
-                        "[reduced clang bug                                 ](http://llvm.org/bugs/show_bug.cgi?id=14486)",
-                        "[qt opengl patch                                   ](https://bugreports.qt-project.org/browse/QTBUG-13503)",
-                        "[some praise                                       ](https://github.com/Valloric/YouCompleteMe/issues/669#issuecomment-31697627)"
+                        "[implementation for completion in call context for C++](http://lists.cs.uiuc.edu/pipermail/cfe-dev/2015-January/040736.html)",
+                        "[circular header inclusion dependency in boost.math   ](https://svn.boost.org/trac/boost/ticket/7999)",
+                        "[C &amp; C++ Brazil comunity's web site revamp        ](http://ccppbrasil.github.io/about/)",
+                        "[libclang python interface optimization               ](http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)",
+                        "[windows kernel mode device hook                      ](http://oblita.com/interception.html)",
+                        "[reduced libclang bug with patch                      ](http://llvm.org/bugs/show_bug.cgi?id=13699)",
+                        "[c++11 raw string literals on vim                     ](https://github.com/vim-jp/cpp-vim/pull/14)",
+                        "[c++11 standard editorial fix                         ](https://github.com/cplusplus/draft/pull/37)",
+                        "[featured on isocpp.org                               ](http://isocpp.org/blog/2014/01/special-chars)",
+                        "[reduced libclang bug                                 ](http://llvm.org/bugs/show_bug.cgi?id=13616)",
+                        "[reduced clang bug                                    ](http://llvm.org/bugs/show_bug.cgi?id=14486)",
+                        "[qt opengl patch                                      ](https://bugreports.qt-project.org/browse/QTBUG-13503)",
+                        "[some praise                                          ](https://github.com/Valloric/YouCompleteMe/issues/669#issuecomment-31697627)"
                     ]
                 }
             ]
