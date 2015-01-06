@@ -82,7 +82,6 @@ Temporary Items
 *.tdo
 
 # Project specific
-resume-for-tex.json
 resume.md
 resume.tex
 resume.pdf
