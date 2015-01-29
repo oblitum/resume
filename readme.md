@@ -13,9 +13,11 @@ C++ - Go - Rust - Haskell - Python
     - Wrote a Windows library that uses a filter driver to intercept input devices.
     - A very particular piece of software which was ported to other languages by the community and with some commercial licenses acquired.
     - This is an old project. Currently, my interest in Windows programming is low.
-* [oblitum/YouCompleteMe](http://github.com/oblitum/YouCompleteMe)
-    - I'm currently maintaining two YouCompleteMe forks that supports parameter completion.
-    - The [last one](https://github.com/Valloric/YouCompleteMe/pull/1300) requires improvements to the clang codebase which I've already proposed.
+* [Clang](http://github.com/Clang) : Live at [better completion for c++](http://nosubstance.me/articles/2015-01-29-better-completion-for-cpp/)
+    - I've improved Clang to obtain better C++ code completion for code authoring tools.
+    - These changes were well reviewed and accepted by good engineers.
+* [oblitum/YouCompleteMe](http://github.com/oblitum/YouCompleteMe) : Live at [oblitum/YouCompleteMe](https://github.com/oblitum/YouCompleteMe/)
+    - I'm currently maintaining a YouCompleteMe fork that supports argument hints.
     - YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor.
 
 ### Technical Skills
@@ -61,7 +63,7 @@ Technician | Data Processing | ETE Lauro Gomes | 2004
 
 ### Other Personal Projects
 * patches, bugs, projects, opinions, etc (picked at random)
-    - [implementation for completion in call context for C++](http://lists.cs.uiuc.edu/pipermail/cfe-dev/2015-January/040736.html)
+    - [implementation for completion in call context for C++](http://reviews.llvm.org/D6880)
     - [circular header inclusion dependency in boost.math   ](https://svn.boost.org/trac/boost/ticket/7999)
     - [C &amp; C++ Brazil comunity's web site revamp        ](http://ccppbrasil.github.io/about/)
     - [libclang python interface optimization               ](http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)

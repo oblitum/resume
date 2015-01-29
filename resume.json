@@ -29,10 +29,18 @@
                     ]
                 },
                 {
-                    "project_name": "oblitum/YouCompleteMe",
+                    "project_name": "Clang",
+                    "tagline": "Live at [better completion for c++](http://nosubstance.me/articles/2015-01-29-better-completion-for-cpp/)",
                     "description": [
-                        "I'm currently maintaining two YouCompleteMe forks that supports parameter completion.",
-                        "The [last one](https://github.com/Valloric/YouCompleteMe/pull/1300) requires improvements to the clang codebase which I've already proposed.",
+                        "I've improved Clang to obtain better C++ code completion for code authoring tools.",
+                        "These changes were well reviewed and accepted by good engineers."
+                    ]
+                },
+                {
+                    "project_name": "oblitum/YouCompleteMe",
+                    "tagline": "Live at [oblitum/YouCompleteMe](https://github.com/oblitum/YouCompleteMe/)",
+                    "description": [
+                        "I'm currently maintaining a YouCompleteMe fork that supports argument hints.",
                         "YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor."
                     ]
                 }
@@ -275,7 +283,7 @@
                 {
                     "headline": "patches, bugs, projects, opinions, etc (picked at random)",
                     "points": [
-                        "[implementation for completion in call context for C++](http://lists.cs.uiuc.edu/pipermail/cfe-dev/2015-January/040736.html)",
+                        "[implementation for completion in call context for C++](http://reviews.llvm.org/D6880)",
                         "[circular header inclusion dependency in boost.math   ](https://svn.boost.org/trac/boost/ticket/7999)",
                         "[C &amp; C++ Brazil comunity's web site revamp        ](http://ccppbrasil.github.io/about/)",
                         "[libclang python interface optimization               ](http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)",
