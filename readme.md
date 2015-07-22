@@ -1,7 +1,7 @@
 ##Francisco Lopes
 [http://nosubstance.me](http://nosubstance.me) `francisco @ oblita.com` `+55 (11) 98071-9565`
 
-C++ - Go - Rust - Haskell - Python
+C++ - Go - Rust - Haskell - Python - ...
 
 ### Qualifications summary
 * Strives for providing quality software.
@@ -15,7 +15,8 @@ C++ - Go - Rust - Haskell - Python
     - This is an old project. Currently, my interest in Windows programming is low.
 * [Clang](http://github.com/Clang) : Live at [better completion for c++](http://nosubstance.me/articles/2015-01-29-better-completion-for-cpp/)
     - I've improved Clang to obtain better C++ code completion for code authoring tools.
-    - These changes were well reviewed and accepted by good engineers.
+    - These changes were well reviewed and accepted by good (and Google) engineers.
+    - [Already in use in the wide](https://twitter.com/mjhutchinson/status/619546569025556480).
 * [oblitum/YouCompleteMe](http://github.com/oblitum/YouCompleteMe) : Live at [oblitum/YouCompleteMe](https://github.com/oblitum/YouCompleteMe/)
     - I'm currently maintaining a YouCompleteMe fork that supports argument hints.
     - YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor.
@@ -25,7 +26,7 @@ C++ - Go - Rust - Haskell - Python
 * **Libraries**: `STL` `Boost` `POSIX` `Windows API` `Qt` `OpenGL` 
 * **Platforms**: `Linux` `OS X` `Windows` `Embedded` 
 * **Theory**: `Algorithms` `Data Structures` `Complexity Analysis` 
-* **Tools**: `CLI` `Vim` `gdb` `gcc` `clang` `msvc` `CMake` `Valgrind/Helgrind` `scan-build` `VCS/DVCS (Git, Bazaar, SVN, ...)` `Jenkins` `Visual Studio` `Eclipse` `Qt Creator` `WinDBG (Kernel Mode)` 
+* **Tools**: `CLI` `Vim` `tmux` `gdb` `gcc` `clang` `msvc` `CMake` `Valgrind/Helgrind` `scan-build` `VCS/DVCS (Git, Bazaar, SVN, ...)` `Jenkins` `Visual Studio` `Eclipse` `Qt Creator` `WinDBG (Kernel Mode)` 
 * **Idioms**: `English (intermediary~advanced)` `Portuguese (native)` 
 
 ### Education
@@ -39,6 +40,12 @@ Technician | Data Processing | ETE Lauro Gomes | 2004
 * Freelancer,  (1/2014 – present)
     - I've been commercially licensing my own software, while also contributing to open-source.
     - Technologies got to work on: `many, whatever fits better` 
+* Developer, GeekSys Serviços de Informátida LTDA (3/2015 – present)
+    - Working at several levels of the StartUp, from building backend services in Go to frontend Javascript and Meteor.
+    - Worked interfacing C++14 code (for device communication) with Go. Got lots of experience in minor details of interop.
+    - Applied a bit of mentorship over debugging and C++ code.
+    - Didn't convert anyone to Vim, despite some impressive demonstrations...
+    - Technologies got to work on: `C++14` `Go` `Javascript` `REST` `MongoDB` `Meteor` `AWS` `Vim` `Git` `Gcc` `Gdb` `Linux` 
 * Senior Programmer, Sertec Sistemas e Assessoria LTDA (4/2013 – 8/2013)
     - C/C++ development of protocol parsing for GPS tracking devices. TCP/UDP communication and performance analysis.
     - Initiative in making use of static analysis tools (cppcheck and clang scan-build) for bug hunting and Helgrind for concurrency problem analysis.
