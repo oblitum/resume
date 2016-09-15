@@ -1,31 +1,30 @@
 ##Francisco Lopes
 [http://nosubstance.me](http://nosubstance.me) `francisco @ oblita.com` `+55 (11) 98071-9565`
 
-C++ - Go - Rust - Haskell - Python - ...
+C - C++ - Python - Go - Rust - PureScript - ...
 
 ### Qualifications summary
 * Strives for providing quality software.
-* Enjoys self-paced study (both computing and other sciences).
 * Likes to work with keen professionals.
+* Enjoys self-paced study.
 
 ### GitHub Projects
 * [oblitum/Interception](http://github.com/oblitum/Interception) : Live at [oblita.com/interception](http://oblita.com/interception)
-    - Wrote a Windows library that uses a filter driver to intercept input devices.
-    - A very particular piece of software which was ported to other languages by the community and with some commercial licenses acquired.
-    - This is an old project. Currently, my interest in Windows programming is low.
-* [Clang](http://github.com/Clang) : Live at [better completion for c++](http://nosubstance.me/articles/2015-01-29-better-completion-for-cpp/)
+    - Wrote a Windows library and filter driver for intercepting input devices.
+    - A very particular piece of software that's commercially licensed and has been ported to other languages by the community.
+* [llvm-mirror/Clang](http://github.com/llvm-mirror/Clang) : Live at [better completion for c++](http://nosubstance.me/articles/2015-01-29-better-completion-for-cpp/)
     - I've improved Clang to obtain better C++ code completion for code authoring tools.
-    - These changes were well reviewed and accepted by good (and Google) engineers.
+    - These changes were [well reviewed and accepted by good (and Google) engineers](http://reviews.llvm.org/D6880).
     - [Already in use in the wide](https://twitter.com/mjhutchinson/status/619546569025556480).
 * [oblitum/YouCompleteMe](http://github.com/oblitum/YouCompleteMe) : Live at [oblitum/YouCompleteMe](https://github.com/oblitum/YouCompleteMe/)
-    - I'm currently maintaining a YouCompleteMe fork that supports argument hints.
+    - I'm currently maintaining a YouCompleteMe fork that supports argument hints for C/C++ and Swift.
     - YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor.
 
 ### Technical Skills
-* **Programming Languages**: `C` `C++` `Go` `Rust` `Python` `Haskell` `Assembly` `Javascript` 
-* **Libraries**: `STL` `Boost` `POSIX` `Windows API` `Qt` `OpenGL` 
+* **Programming Languages**: `C` `C++` `Go` `Rust` `Python` `Assembly` `Javascript` `PureScript` 
+* **Libraries**: `STL` `Boost` `POSIX` `Windows API` `Qt` `OpenGL` `ZeroMQ` 
 * **Platforms**: `Linux` `OS X` `Windows` `Embedded` 
-* **Theory**: `Algorithms` `Data Structures` `Complexity Analysis` 
+* **Theory**: `Algorithms` `Data Structures` 
 * **Tools**: `CLI` `Vim` `tmux` `gdb` `gcc` `clang` `msvc` `CMake` `Valgrind/Helgrind` `scan-build` `VCS/DVCS (Git, Bazaar, SVN, ...)` `Jenkins` `Visual Studio` `Eclipse` `Qt Creator` `WinDBG (Kernel Mode)` 
 * **Idioms**: `English (intermediary~advanced)` `Portuguese (native)` 
 
@@ -40,12 +39,14 @@ Technician | Data Processing | ETE Lauro Gomes | 2004
 * Freelancer,  (1/2014 – present)
     - I've been commercially licensing my own software, while also contributing to open-source.
     - Technologies got to work on: `many, whatever fits better` 
-* Developer, GeekSys Serviços de Informátida LTDA (3/2015 – present)
-    - Working at several levels of the StartUp, from building backend services in Go to frontend Javascript and Meteor.
+* Senior Programmer, GeekSys Serviços de Informátida LTDA (3/2015 – 8/2016)
+    - Working at several levels of a startup, from building backend services in Go and video capturing in C++ and Python, to frontend Javascript.
+    - I've been instrumental implementing entire software stacks as well as choosing the right tools and libraries.
     - Worked interfacing C++14 code (for device communication) with Go. Got lots of experience in minor details of interop.
-    - Applied a bit of mentorship over debugging and C++ code.
-    - Didn't convert anyone to Vim, despite some impressive demonstrations...
-    - Technologies got to work on: `C++14` `Go` `Javascript` `REST` `MongoDB` `Meteor` `AWS` `Vim` `Git` `Gcc` `Gdb` `Linux` 
+    - Defined git based workflows to be adopted. "Saved the day" in many occasions with git related tasks.
+    - Applied some mentorship on debugging and C++ code.
+    - Worked in office as well as remotely.
+    - Technologies got to work on: `C` `C++14` `Poco` `Boost` `CMake` `ZeroMQ` `ffmpeg` `Python` `Go` `Git` `Javascript` `REST` `MongoDB` `Meteor` `AWS` `Vim` `Gcc` `Gdb` `Linux` `UML` 
 * Senior Programmer, Sertec Sistemas e Assessoria LTDA (4/2013 – 8/2013)
     - C/C++ development of protocol parsing for GPS tracking devices. TCP/UDP communication and performance analysis.
     - Initiative in making use of static analysis tools (cppcheck and clang scan-build) for bug hunting and Helgrind for concurrency problem analysis.
@@ -70,19 +71,18 @@ Technician | Data Processing | ETE Lauro Gomes | 2004
 
 ### Other Personal Projects
 * patches, bugs, projects, opinions, etc (picked at random)
-    - [implementation for completion in call context for C++](http://reviews.llvm.org/D6880)
-    - [circular header inclusion dependency in boost.math   ](https://svn.boost.org/trac/boost/ticket/7999)
-    - [C &amp; C++ Brazil comunity's web site revamp        ](http://ccppbrasil.github.io/about/)
-    - [libclang python interface optimization               ](http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)
     - [windows kernel mode device hook                      ](http://oblita.com/interception.html)
-    - [reduced libclang bug with patch                      ](http://llvm.org/bugs/show_bug.cgi?id=13699)
-    - [c++11 raw string literals on vim                     ](https://github.com/vim-jp/cpp-vim/pull/14)
+    - [implementation for completion in call context for C++](http://reviews.llvm.org/D6880)
+    - [C &amp; C++ Brazil comunity's web site revamp        ](http://ccppbrasil.github.io/about/)
     - [c++11 standard editorial fix                         ](https://github.com/cplusplus/draft/pull/37)
-    - [featured on isocpp.org                               ](http://isocpp.org/blog/2014/01/special-chars)
+    - [c++11 raw string literals on vim                     ](https://github.com/vim-jp/cpp-vim/pull/14)
+    - [libclang python interface optimization               ](http://lists.llvm.org/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)
+    - [reduced libclang bug with patch                      ](http://llvm.org/bugs/show_bug.cgi?id=13699)
     - [reduced libclang bug                                 ](http://llvm.org/bugs/show_bug.cgi?id=13616)
     - [reduced clang bug                                    ](http://llvm.org/bugs/show_bug.cgi?id=14486)
-    - [qt opengl patch                                      ](https://bugreports.qt-project.org/browse/QTBUG-13503)
-    - [some praise                                          ](https://github.com/Valloric/YouCompleteMe/issues/669#issuecomment-31697627)
+    - [circular header inclusion dependency in boost.math   ](https://svn.boost.org/trac/boost/ticket/7999)
+    - [featured on isocpp.org                               ](http://isocpp.org/blog/2014/01/special-chars)
+    - [qt opengl patch                                      ](https://bugreports.qt.io/browse/QTBUG-13503)
 
 
 

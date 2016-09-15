@@ -9,12 +9,12 @@
         "email": "francisco @ oblita.com",
         "phone": "+55 (11) 98071-9565",
         "website": "http://nosubstance.me",
-        "stars": ["C++","Go","Rust","Haskell","Python", "..."],
+        "stars": ["C", "C++", "Python", "Go", "Rust", "PureScript", "..."],
         "summary": {
             "points":[
                 "Strives for providing quality software.",
-                "Enjoys self-paced study (both computing and other sciences).",
-                "Likes to work with keen professionals."
+                "Likes to work with keen professionals.",
+                "Enjoys self-paced study."
             ]
         },
         "github_projects": {
@@ -23,17 +23,16 @@
                     "project_name": "oblitum/Interception",
                     "tagline": "Live at [oblita.com/interception](http://oblita.com/interception)",
                     "description": [
-                        "Wrote a Windows library that uses a filter driver to intercept input devices.",
-                        "A very particular piece of software which was ported to other languages by the community and with some commercial licenses acquired.",
-                        "This is an old project. Currently, my interest in Windows programming is low."
+                        "Wrote a Windows library and filter driver for intercepting input devices.",
+                        "A very particular piece of software that's commercially licensed and has been ported to other languages by the community."
                     ]
                 },
                 {
-                    "project_name": "Clang",
+                    "project_name": "llvm-mirror/Clang",
                     "tagline": "Live at [better completion for c++](http://nosubstance.me/articles/2015-01-29-better-completion-for-cpp/)",
                     "description": [
                         "I've improved Clang to obtain better C++ code completion for code authoring tools.",
-                        "These changes were well reviewed and accepted by good (and Google) engineers.",
+                        "These changes were [well reviewed and accepted by good (and Google) engineers](http://reviews.llvm.org/D6880).",
                         "[Already in use in the wide](https://twitter.com/mjhutchinson/status/619546569025556480)."
                     ]
                 },
@@ -41,7 +40,7 @@
                     "project_name": "oblitum/YouCompleteMe",
                     "tagline": "Live at [oblitum/YouCompleteMe](https://github.com/oblitum/YouCompleteMe/)",
                     "description": [
-                        "I'm currently maintaining a YouCompleteMe fork that supports argument hints.",
+                        "I'm currently maintaining a YouCompleteMe fork that supports argument hints for C/C++ and Swift.",
                         "YouCompleteMe is a well known project that provides fuzzy code completion in the Vim editor."
                     ]
                 }
@@ -57,9 +56,9 @@
                         "Go",
                         "Rust",
                         "Python",
-                        "Haskell",
                         "Assembly",
-                        "Javascript"
+                        "Javascript",
+                        "PureScript"
                     ]
                 },
                 {
@@ -70,7 +69,8 @@
                         "POSIX",
                         "Windows API",
                         "Qt",
-                        "OpenGL"
+                        "OpenGL",
+                        "ZeroMQ"
                     ]
                 },
                 {
@@ -86,8 +86,7 @@
                     "type": "Theory",
                     "items": [
                         "Algorithms",
-                        "Data Structures",
-                        "Complexity Analysis"
+                        "Data Structures"
                     ]
                 },
                 {
@@ -153,31 +152,41 @@
                     }
                 },
                 {
-                    "title": "Developer",
+                    "title": "Senior Programmer",
                     "organisation": "GeekSys Serviços de Informátida LTDA",
                     "location": "",
                     "from": "3/2015",
-                    "to": "present",
+                    "to": "8/2016",
                     "details": [
-                        "Working at several levels of the StartUp, from building backend services in Go to frontend Javascript and Meteor.",
+                        "Working at several levels of a startup, from building backend services in Go and video capturing in C++ and Python, to frontend Javascript.",
+                        "I've been instrumental implementing entire software stacks as well as choosing the right tools and libraries.",
                         "Worked interfacing C++14 code (for device communication) with Go. Got lots of experience in minor details of interop.",
-                        "Applied a bit of mentorship over debugging and C++ code.",
-                        "Didn't convert anyone to Vim, despite some impressive demonstrations..."
+                        "Defined git based workflows to be adopted. \"Saved the day\" in many occasions with git related tasks.",
+                        "Applied some mentorship on debugging and C++ code.",
+                        "Worked in office as well as remotely."
                     ],
                     "technology_used": {
                         "tools": [
+                            "C",
                             "C++14",
+                            "Poco",
+                            "Boost",
+                            "CMake",
+                            "ZeroMQ",
+                            "ffmpeg",
+                            "Python",
                             "Go",
+                            "Git",
                             "Javascript",
                             "REST",
                             "MongoDB",
                             "Meteor",
                             "AWS",
                             "Vim",
-                            "Git",
                             "Gcc",
                             "Gdb",
-                            "Linux"
+                            "Linux",
+                            "UML"
                         ]
                     }
                 },
@@ -314,19 +323,18 @@
                 {
                     "headline": "patches, bugs, projects, opinions, etc (picked at random)",
                     "points": [
-                        "[implementation for completion in call context for C++](http://reviews.llvm.org/D6880)",
-                        "[circular header inclusion dependency in boost.math   ](https://svn.boost.org/trac/boost/ticket/7999)",
-                        "[C &amp; C++ Brazil comunity's web site revamp        ](http://ccppbrasil.github.io/about/)",
-                        "[libclang python interface optimization               ](http://lists.cs.uiuc.edu/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)",
                         "[windows kernel mode device hook                      ](http://oblita.com/interception.html)",
-                        "[reduced libclang bug with patch                      ](http://llvm.org/bugs/show_bug.cgi?id=13699)",
-                        "[c++11 raw string literals on vim                     ](https://github.com/vim-jp/cpp-vim/pull/14)",
+                        "[implementation for completion in call context for C++](http://reviews.llvm.org/D6880)",
+                        "[C &amp; C++ Brazil comunity's web site revamp        ](http://ccppbrasil.github.io/about/)",
                         "[c++11 standard editorial fix                         ](https://github.com/cplusplus/draft/pull/37)",
-                        "[featured on isocpp.org                               ](http://isocpp.org/blog/2014/01/special-chars)",
+                        "[c++11 raw string literals on vim                     ](https://github.com/vim-jp/cpp-vim/pull/14)",
+                        "[libclang python interface optimization               ](http://lists.llvm.org/pipermail/cfe-commits/Week-of-Mon-20120813/062759.html)",
+                        "[reduced libclang bug with patch                      ](http://llvm.org/bugs/show_bug.cgi?id=13699)",
                         "[reduced libclang bug                                 ](http://llvm.org/bugs/show_bug.cgi?id=13616)",
                         "[reduced clang bug                                    ](http://llvm.org/bugs/show_bug.cgi?id=14486)",
-                        "[qt opengl patch                                      ](https://bugreports.qt-project.org/browse/QTBUG-13503)",
-                        "[some praise                                          ](https://github.com/Valloric/YouCompleteMe/issues/669#issuecomment-31697627)"
+                        "[circular header inclusion dependency in boost.math   ](https://svn.boost.org/trac/boost/ticket/7999)",
+                        "[featured on isocpp.org                               ](http://isocpp.org/blog/2014/01/special-chars)",
+                        "[qt opengl patch                                      ](https://bugreports.qt.io/browse/QTBUG-13503)"
                     ]
                 }
             ]
